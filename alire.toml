@@ -24,8 +24,8 @@ authors = ["Vinzent \"Jellix\" Saranen"]
 website = "https://github.heisenbug.eu/si_units"
 licenses = "WTFPL"
 tags = ["utilities", "formatting"]
-maintainers = ["vinzent@heisenbug.eu"]
-maintainers-logins = ["Jellix"]
+maintainers = ["vinzent@heisenbug.eu", "amosteo@unizar.es"]
+maintainers-logins = ["Jellix", "mosteo"]
 project-files = ["si_units.gpr"]
 
 [gpr-externals]
