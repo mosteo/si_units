@@ -13,7 +13,12 @@ library project SI_Units is
 
    Build_Mode : Build_Type := external ("SI_UNITS_BUILD_MODE", "release");
 
-   Compiler_Switches := ("-gnat12", "-gnatw.e.Y", "-gnatyAM80OSabcdefhiklnoprstu", "-gnata", "-gnato", "-fstack-check");
+   Compiler_Switches := ("-gnat12", "-gnatw.e.Y",
+                         "-gnatyAM80OSabcdefhiklnoprstu",
+                         "-gnaty-d",
+                         "-gnatW8", -- UTF8 Encoding (although sources are
+                                    -- currently ASCII-only)
+                         "-gnata", "-gnato", "-fstack-check");
 
    package Builder is
       case Build_Mode is

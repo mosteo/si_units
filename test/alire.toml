@@ -1,0 +1,12 @@
+name = "test"
+description = "SI Units testsuite"
+version = "0.1.0-dev"
+project-files = ["si_units_test.gpr"]
+executables = ["main_si_units_test"]
+
+authors = ["Alejandro R. Mosteo"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+licenses = "WTFPL"
+website = ""
+tags = []
